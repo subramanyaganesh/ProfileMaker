@@ -1,0 +1,20 @@
+footer{
+    background: var(--color-bg);
+    padding: 3rem 0;
+    text-align: center;
+    font-size: 0.9rem;
+    margin-top: 7 rem;
+}
+.footer__logo{
+    font-size:2rem ;
+    font-weight: 500;
+    display: inline-block;
+    margin-bottom: 2rem;
+}
+.permalinks{
+    justify-content: center;
+    gap: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto 3rem;
+}

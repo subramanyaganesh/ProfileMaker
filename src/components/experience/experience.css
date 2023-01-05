@@ -1,0 +1,44 @@
+.container__experience {
+    margin-top: 1rem;
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+    margin-bottom: 8em;
+}
+
+.values {
+    font-size: small;
+    font-weight: 200;
+    color: var(--color-light);
+}
+
+.outerBox {
+    background: var(--color-bg);
+    border: 1px solid transparent;
+    border-radius: 1rem 1rem 1rem 1rem;
+    padding:1rem;
+    text-align: center;
+    transition: var(--transition);
+    height: 7rem;
+    width: 15rem;
+
+}
+
+.outerBox:hover{
+    background: transparent;
+    border-color: var(--color-white);
+    cursor: default;
+
+}
+
+.icons{
+    color: var(--color-primary);
+    font-size: large;
+    padding: 0.2rem 0.2rem 0rem 0rem;
+}
+.icons__tool{
+    transform: translateX(-380%);
+}
+.icons__manager{
+    transform: translateX(-880%);
+}
