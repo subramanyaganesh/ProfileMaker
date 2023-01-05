@@ -2,7 +2,7 @@ import React from 'react'
 import './portfolio.css'
 import Lib from '../../Assets/test.jpeg'
 import Mid from '../../Assets/midserver.jpeg'
-import MidCreate from '../../Assets/midserver-create.jpeg'
+import MidCreate from '../../Assets/portfolio.jpeg'
 
 const Portfolio = () => {
   return (
@@ -18,7 +18,7 @@ const Portfolio = () => {
             </div>
             <h3>Library Management System</h3>
             <div className='portfolio__article-cta'>
-              <a href='https://github.com/' className='btn' target='_blank' rel="noreferrer" >Github</a>
+              <a href='https://github.com/subramanyaganesh/LibraryManagementSystem' className='btn' target='_blank' rel="noreferrer" >Github</a>
               </div>
           </article>
 
@@ -28,7 +28,7 @@ const Portfolio = () => {
             </div>
             <h3>MidServer Creator</h3>
             <div className='portfolio__article-cta'>
-              <a href='https://github.com/' className='btn' target='_blank' rel="noreferrer">Github</a>
+              <a href='https://github.com/subramanyaganesh/MidServerCreator' className='btn' target='_blank' rel="noreferrer">Github</a>
             </div>
           </article>
 
@@ -36,9 +36,9 @@ const Portfolio = () => {
             <div className='portfolio__article-image'>
               <img src={MidCreate} alt="" />
             </div>
-            <h3>MidServer Health Analyser</h3>
+            <h3>My Portfolio</h3>
             <div className='portfolio__article-cta'>
-              <a href='https://github.com/' className='btn' target='_blank' rel="noreferrer">Github</a>
+              <a href='https://github.com/subramanyaganesh/ProfileMaker' className='btn' target='_blank' rel="noreferrer">Github</a>
               </div>
           </article>
 
