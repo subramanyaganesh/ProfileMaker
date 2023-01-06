@@ -31,21 +31,21 @@ const Contact = () => {
           <article className='contact__option '>
             <MdOutlineMail className='contact__option-icon' />
             <h4>Email</h4>
-            <h6>subramanya1174@gmail.com</h6>
-            <a href='mailto:subramanya1174@gmail.com' target='_blank' rel="noreferrer"> Send a message</a>
+            <h5>sganesh10@hawk.iit.edu</h5>
+            <a href="mailto:sganesh10@hawk.iit.edu" target='_blank' rel="noreferrer">Send a message</a>
           </article>
 
           <article className='contact__option '>
             <FaWhatsapp />
             <h4>WhatsApp</h4>
             <h5>+919686179990</h5>
-            <a href='https://web.whatsapp.com/send?phone=+919686179990' target='_blank' rel="noreferrer"> Send a message</a>
+            <a href='https://api.whatsapp.com/send?phone=+919686179990' target='_blank' rel="noreferrer"> Send a message</a>
           </article>
         </div>
         <form ref={form} onSubmit={sendEmail}>
           <input type="text" name='name' placeholder='Your Full Name' required />
           <input type="text" name='email' placeholder='Your Email' required />
-          <textarea type="text" name='name' placeholder='Your Message' required />
+          <textarea name='message' rows='7' placeholder='Your Message' required />
           <button type='submit' className='btn btn-primary'>Send Message</button>
         </form>
       </div>
